@@ -182,7 +182,9 @@ System.out.println(response);}}
             our emailAPI <br/>
             If you want to use custom Email for your app create a new 
             <span className="text-blue-700 font-medium text-lg lg:text-xl
-            border-b border-blue-700"> app password</span></p>
+            border-b border-blue-700" onClick={()=>{
+              window.open("https://support.google.com/accounts/answer/185833?hl=en")
+            }}> app password</span></p>
           </div>
         <div >
             <label className="flex m-5 text-3xl lg:text-4xl">Installing Dependencies</label>

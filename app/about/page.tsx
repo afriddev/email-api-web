@@ -41,7 +41,7 @@ const About = ({ setIndex }) => {
           </h2>
           <div className="flex flex-col justify-center items-center space-y-6 lg:ml-20 lg:grid lg:grid-cols-3 lg:grid-rows-2">
             <div className="flex flex-col justify-center w-4/5 h-4/5 bg-white rounded-xl drop-shadow-2xl">
-              <embed src="user.svg" className="pt-3" />
+              <embed src="user.svg" className="pt-3 h-20" />
               <h3 className="text-center pt-3 text-xl font-roboto font-medium">
                 Service accounts
               </h3>
@@ -50,7 +50,7 @@ const About = ({ setIndex }) => {
               </p>
             </div>
             <div className="flex flex-col justify-center  w-4/5 h-4/5 bg-white rounded-xl drop-shadow-2xl">
-              <embed src="lock.svg" className="pt-3  h-14" />
+              <embed src="lock.svg" className="pt-3  h-20" />
               <h3 className="text-center pt-3 text-xl font-roboto font-medium pl-3">
                 Easily navigate the OAuth Verification process
               </h3>
@@ -60,7 +60,7 @@ const About = ({ setIndex }) => {
               </p>
             </div>
             <div className="flex flex-col justify-center w-4/5 h-4/5 bg-white rounded-xl drop-shadow-2xl">
-              <embed src="scheduler.svg" className="pt-3" />
+              <embed src="scheduler.svg" className="pt-3 h-20" />
               <h3 className="text-center pt-3 text-xl font-roboto font-medium">
                 Scheduled send
               </h3>
@@ -69,7 +69,7 @@ const About = ({ setIndex }) => {
               </p>
             </div>
             <div className="flex flex-col justify-center w-4/5 h-4/5 bg-white rounded-xl drop-shadow-2xl">
-              <embed src="barchart.svg" className="pt-3" />
+              <embed src="barchart.svg" className="pt-3 h-20" />
               <h3 className="text-center pt-3 text-xl font-roboto font-medium">
                 High-volume send
               </h3>
@@ -78,7 +78,7 @@ const About = ({ setIndex }) => {
               </p>
             </div>
             <div className="flex flex-col justify-center w-4/5 h-4/5 bg-white rounded-xl drop-shadow-2xl">
-              <embed src="fingerprint.svg" className="pt-3" />
+              <embed src="fingerprint.svg" className="pt-3 h-20" />
               <h3 className="text-center pt-3 text-xl font-roboto font-medium">
                 Authentication scopes
               </h3>
