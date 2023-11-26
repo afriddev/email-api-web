@@ -5,10 +5,9 @@ import { useState } from 'react'
 import LgNavBar from '../utils/LgNavBar'
 import NavBar from '../utils/NavBar'
 import Bottom from '../utils/Bottom'
-import Home from './home/page'
-
-import Docs from './docs/page'
 import About from '@/components/About'
+import Home from '@/components/Home'
+import Docs from '@/components/Docs'
 const App = () => {
   const [nav, setNav] = useState(0)
   const [indexOfPage,setIndexOfPage] = useState(0);

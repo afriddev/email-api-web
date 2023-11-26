@@ -5,7 +5,7 @@ import Editor from "react-simple-code-editor";
 import { highlight, languages } from "prismjs";
 import "prismjs/themes/prism.css";
 import React, { useState } from "react";
-import CodePart from "../../utils/DocsCodePart";
+import CodePart from "@/utils/DocsCodePart";
 export default function Docs() {
   const javaScriptCode = `const emailservice = require('emailsevice');
 async function sendEmail(){
