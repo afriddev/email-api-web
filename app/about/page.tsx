@@ -1,4 +1,4 @@
-const About = ({ setIndex }) => {
+export default function About({setIndex}){
     return (
       <>
         <div className="flex flex-col mt-12 lg:grid lg:grid-cols-2">
@@ -148,5 +148,5 @@ const About = ({ setIndex }) => {
       </>
     );
   };
-  export default About;
+
   
