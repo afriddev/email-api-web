@@ -6,8 +6,9 @@ import LgNavBar from '../utils/LgNavBar'
 import NavBar from '../utils/NavBar'
 import Bottom from '../utils/Bottom'
 import Home from './home/page'
-import About from './about/page'
+
 import Docs from './docs/page'
+import About from '@/components/About'
 const App = () => {
   const [nav, setNav] = useState(0)
   const [indexOfPage,setIndexOfPage] = useState(0);
