@@ -93,25 +93,25 @@ System.out.println(response);}}
                   onClick={() => {
                     setCode(dartCode);
                   }}
-                  className="flex border w-10 h-8 px-2 rounded-lg"
+                  className="flex border w-10 h-8 px-2 rounded-lg cursor-pointer"
                 />
                 <DiPython
                   onClick={() => {
                     setCode(pythonCode);
                   }}
-                  className="flex border w-10 h-8 px-2 rounded-lg"
+                  className="flex border w-10 h-8 px-2 rounded-lg cursor-pointer"
                 />
                 <TbBrandJavascript
                   onClick={() => {
                     setCode(javaScriptCode);
                   }}
-                  className="flex border w-10 h-8 px-2 rounded-lg"
+                  className="flex border w-10 h-8 px-2 rounded-lg cursor-pointer"
                 />
                 <LiaJava
                   onClick={() => {
                     setCode(javaCode);
                   }}
-                  className="flex border w-10 h-8 px-2 rounded-lg"
+                  className="flex border w-10 h-8 px-2 rounded-lg cursor-pointer"
                 />
               </ul>
             </div>

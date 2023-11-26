@@ -21,8 +21,8 @@ export default function LgNavBar({ setIndex, indexOfPage }) {
             <li onClick={() => {
               setIndex(e.index)
             }}
-              className={indexOfPage == e.index?"text-2xl my-5 m-4 text-white border px-6 py-2 rounded-xl bg-blue-500"
-            :"text-2xl my-5 m-4 text-gray-800 border px-6 py-2 rounded-xl hover:bg-gray-200"}
+              className={indexOfPage == e.index?"text-2xl cursor-pointer my-5 m-4 text-white border px-6 py-2 rounded-xl bg-blue-500"
+            :"text-2xl my-5 m-4 cursor-pointer text-gray-800 border px-6 py-2 rounded-xl hover:bg-gray-200"}
             >
               {e.name}
             </li>

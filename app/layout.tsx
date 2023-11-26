@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Email Service',
   description: 'Free Email Service API For Developers',
+  icons:'logo.png'
 }
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="logo.png"/>
+        <link rel="icon" href="logo_main.png"/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

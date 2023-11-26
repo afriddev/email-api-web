@@ -26,7 +26,7 @@ export default function NavBar({setIndex,indexOfPage}){
       >
         {elements.map((e) => (
           <li onClick={()=>passIndex(e.index)}
-            className={indexOfPage == e.index?"text-2xl my-5 m-4 text-blue-500 border-b border-blue-500 ":"text-2xl my-5 m-4 text-gray-800 "}
+            className={indexOfPage == e.index?"text-2xl my-5 cursor-pointer m-4 text-blue-500 border-b border-blue-500 ":"text-2xl my-5 m-4 text-gray-800 "}
 
           >
             {e.name}
