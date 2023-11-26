@@ -6,8 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Email Service',
-  description: 'Free Email Service API For Developers',
-  icons:'logo.png'
+  description: 'Free Email Service API For Developers'
 }
 
 export default function RootLayout({
