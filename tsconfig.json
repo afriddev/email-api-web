@@ -18,13 +18,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "strict": false
   },
   "include": [
     "next-env.d.ts",
